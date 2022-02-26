@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1360px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #000000;
+    background-color: white;
+}
+
+.page-header {
+    min-height: 1080px;
+    background-color: #363636;
+    background-image: url("photo/cappadocia-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.main-nav {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.main-nav::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.main-nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    margin: 50px 45px 0 0;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+.phone {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.phone::before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.phone a,
+.phone img {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+.phone img {
+    margin-right: 10px;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    margin-top: 290px;
+    font-size: 46px;
+    line-height: 55px;
+    font-family: "Roboto Condensed", serif;
+    text-align: right;
+}
+
+.tur-name {
+    font-size: 240px;
+    font-family: 'Balqis', sans-serif;
+    font-weight: 100;
+}
+
+.promo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.features {
+    display: grid;
+    height: 932px;
+    margin-top: 200px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 232px 700px;
+}
+
+.fairy-tail {
+    grid-column: 1 / 2;
+}
+
+.features .fairy-tail-photo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-image: url("photo/Fairy-tail.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: both;
+}
+
+.description {
+    width: 605px;
+    margin: 40px 50px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.description h3 {
+    font-size: 18px;
+}
+
+.description ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.ft-margin {
+    margin-bottom: 50px;
+}
+
+.fairy-tail {
+    display: flex;
+    justify-content: center;
+    height: 134px;
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.fairy-tail a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.fairy-tail .fairy-word {
+    color: #e2ab3f;
+    font-size: 96px;
+    position: absolute;
+    font-family: 'Balqis';
+}
+
+.fairy-tail .fairy-word-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 300px;
+}
+
+.our-trip {
+    display: grid;
+    height: 1095px;
+    margin-top: 200px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 945px;
+}
+
+.our-trip-photo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url("photo/Our-trip.png");
+    background-repeat: no-repeat;
+    background-size: both;
+}
+
+.our-trips {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.our-trips .our-word {
+    color: #e2ab3f;
+    font-size: 96px;
+    margin-right: 20px;
+    position: absolute;
+    font-family: 'Balqis', sans-serif;
+    text-decoration: none;
+
+}
+
+.our-trips .our-word-2 {
+    font-size: 24px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 102px;
+    color: #000;
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+}
+
+.our-days-list {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    
+}
+
+.days-list {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 300px;
+}
+
+.days-list .day-1 {
+    width: 300px;
+}
+
+.days-list li {
+    list-style: none;
+}
+
+.day-4 ul {
+    margin: 0;
+}
+
+ul h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+ul ul {
+    margin-bottom: 50px;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px  auto 0 auto;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #e2ab3f;
+    width: 280px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.hotels {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 243px 700px;
+    margin-top: 200px;
+}
+
+.hotel {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hotel .hotel-word {
+    text-decoration: none;
+    font-size: 96px;
+    font-family: 'Balqis', sans-serif;
+    position: absolute;
+    margin-right: 100px;
+    color: #e2ab3f;
+}
+
+.hotel .hotel-word-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 115px;
+    margin-left: 155px;
+    text-decoration: none;
+    color: #000;
+}
+
+.hotel-photo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-image: url("photo/Hotel-1.png");
+    background-repeat: no-repeat;
+    background-size: both;
+    background-position-x: right;
+    margin-right: 125px;
+}
+
+.hotel-grid {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    display: grid;
+    grid-template-rows: 49% 51%;
+    width: 680px;
+}
+
+.hotel-text {
+    margin: 0;
+    padding: 0;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 680px;
+    max-height: 100%;
+}
+
+.hotel-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.hotel-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    width: 100%;
+    height: 100%;
+    gap: 57px;
+}
+
+.hotel-photos .hotel-photo-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url("photo/hotel-g-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hotel-photos .hotel-photo-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url("photo/hotel-g-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hotel-photos .hotel-photo-3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-image: url("photo/hotel-g-3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hotel-photos .hotel-photo-4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-image: url("photo/hotel-g-3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.price-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 135px 426px 200px 800px;
+    margin-top: 200px;
+    background-image: url("photo/cappadocia-ball.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+}
+
+.price {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.price .price-word {
+    color: #e2ab3f;
+    font-size: 96px;
+    margin-right: 100px;
+    position: absolute;
+    font-family: 'Balqis', sans-serif;
+    text-decoration: none;
+
+}
+
+.price .price-word-2 {
+    font-size: 24px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 102px;
+    color: #000;
+    text-decoration: none;
+}
+
+.included {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 590px;
+    margin-left: auto;
+    margin-top: 102px;
+    padding-right: 34px;
+}
+
+.included h3 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.included ul {
+    list-style: none;
+}
+
+.included ul li {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.not-included h3 {
+    margin-bottom: 40px;
+}
+
+.not-included {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    margin-top: 102px;
+}
+
+.not-included ul {
+    list-style:  none;
+}
+
+.not-included ul li {
+    margin-bottom: 20px;
+}
+
+.feedback-form {
+    grid-column: 1 / 2;
+    grid-row: -1 / -2;
+
+    width: 384px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.feedback-form .date a,
+.feedback-form .cost a {
+    color: #e2ab3f;
+    font-family: 'Balqis', sans-serif;
+    text-decoration: none;
+    font-size: 96px;
+    line-height: 1;
+}
+
+.feedback-form .date p,
+.feedback-form .cost p {
+    color: #000;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+}
+
+.feedback-form .date p,
+.feedback-form .cost p {
+    text-align: right;
+    padding-right: 80px;
+}
+
+.feedback-form .cost a {
+    padding: 0 19%;
+    text-align: center;
+}
+
+.price-photo {
+    grid-column: 2 / 3;
+    grid-row: -1 / -2;
+    background-image: url("photo/feedback.png");
+    background-repeat: no-repeat;
+    background-size: both;
+}
+
+.feedback-form h3 {
+    font-size: 21px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.feedback-form-group {
+    width: 384px;
+    margin-right: auto;
+}
+
+input[type="text"],
+input[type="phone"] {
+    border: 1px solid #e2ab3f;
+    width: 383px;
+    height: 48px;
+    margin-bottom: 70px;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="phone"]::-webkit-input-placeholder {
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.btn-2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #e2ab3f;
+    width: 280px;
+}
+
+.footer {
+    min-height: 100%;
+    height: 940px;
+    background-color: #363636;
+    margin-top: 200px;
+    background-image: url("photo/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer .footer-ball {
+    background-image: url("photo/footer-ball.png");
+    background-repeat: no-repeat;
+    width: 365px;
+    height: 527px;
+    margin-left: auto;
+    padding-right: 115px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer .contacts {
+    font-size: 86px;
+    font-family: 'Balqis', sans-serif;
+    color: #e2ab3f;
+    padding-top: 60px;
+}
+
+
+.footer .phone-ball {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+}
+
+.footer .phone-ball img {
+    display: initial;
+    vertical-align: middle;
+}
+
+.footer .phone-ball p {
+    display: initial;
+    vertical-align: middle;
+}
+
+.footer .email-ball {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+}
+
+.footer .phone-ball,
+.footer .email-ball {
+    padding-top: 20px;
+}
+
+.footer .social-media {
+    padding-top: 40px;
+}
+
+.footer .email-ball img {
+    display: initial;
+    vertical-align: middle;
+}
+
+.footer .email-ball p {
+    display: initial;
+    vertical-align: middle;
+}
+
+.footer h2{
+    font-size: 86px;
+    font-weight: 100;
+    font-family: 'Balqis', sans-serif;
+    color: #000;
+    margin-top: 310px;
+}
+
+@font-face {
+    font-family: "Balqis";
+    src : url("font/Balqis.otf");
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("font/RobotoCondensed-Light.ttf");
+}
