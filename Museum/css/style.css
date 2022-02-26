@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main-text-white-bg {
+    margin-top: 75px;
+    height: 90px;
+    font-family: 'Forum', serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 90px;
+    letter-spacing: 5px;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #9d8665;
+}
+
+.main-text-black-bg {
+    position: relative;
+    padding-top: 75px;
+    margin-bottom: 103px;
+    font-family: 'Forum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+header {
+    height: 150px;
+    background-color: #030303;
+}
+
+header .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .logo {
+    margin-top: 59px;
+}
+
+header .logo_text {
+    margin-left: 25px;
+    font-family: 'Forum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+header .nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+header .nav_menu a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+header .nav_menu a:hover {
+    color: #9d8665;
+}
+
+header .nav_menu a:active {
+    color: #7e6c51;
+}
+
+section.welcome {
+    height: 810px;
+    background-color: #030303;
+}
+
+.welcome .welcome-block {
+    position: relative;
+    padding-top: 150px;
+    height: 538px;
+}
+
+.welcome h1 {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    height: 180px;
+    font-family: 'Forum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.welcome h2 {
+    position: absolute;
+    bottom: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
+.welcome button {
+    position: absolute;
+    bottom: 0;
+    background-color: #710707;
+    border: none;
+    border-radius: 10px;
+    width: 360px;
+    height: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
+.welcome button:hover {
+    background-color: #9d8665;
+}
+
+.welcome .offer-slider {
+    position: absolute;
+    width: 1000px;
+    height: 750px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url(../assets/img/welcome-slider/1.jpg);
+}
+
+.flex-block {
+    position: relative;
+}
+
+.flex-block h3 {
+    color: #000000;
+    font-family: 'Forum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.flex-block .flex-virtual-tour {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.flex-block .google-street {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+
+.visiting .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.visiting .main-text-white-bg {
+    margin-bottom: 103px;
+}
+
+.flex-container .flex-block:nth-child(1) {
+    margin-bottom: 75px;
+}
+
+.flex-block h3 {
+    margin-top: 25px;
+}
+
+.flex-block .flex-virtual-tour {
+    margin-top: 22px;
+}
+
+.flex-block .google-street {
+    margin-top: 10px;
+}
+
+.flex-block::before {
+    content: '';
+    position: absolute;
+    top: 358px;
+    width: 300px;
+    height: 2px;
+    background-color: #710707;
+    z-index: 2;
+}
+
+.flex-container .flex-block:nth-child(4) {
+    margin-bottom: 75px;
+}
+
+.explore {
+    position: relative;
+    background: #000;
+    height: 865px;
+}
+
+.explore .explore-text {
+    width: 660px;
+}
+
+.explore .explore-text p {
+    margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.explore .explore-text p span {
+    color: #9d8665;
+}
+
+.explore .main-text-black-bg::before {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    width: 660px;
+    height: 3px;
+    background-color: #710707;
+    z-index: 1;
+}
+
+.explore-slider img {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 720px;
+    height: 700px;
+}
+
+.explore-slider .exp-slider {
+    position: absolute;
+    top: 90px;
+    right: 260px;
+    width: 39px;
+    z-index: 5;
+}
+
+.explore-slider .slider-after {
+    width: 280px; 
+    height: 700px;
+    object-fit: cover;
+    object-position: -440px 0;
+}
+
+.tr {
+    transition: 0.4s;
+}
+
+.video .description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video .description-text {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    width: 720px;
+    height: 90px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.video .player {
+    position: relative;
+    margin-top: 75px;
+    height: 650px;
+}
+
+.video .player #play {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.video video {
+    width: 1440px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.video .video-settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -4px;
+    width: 1440px;
+    height: 85px;
+    background: #000;
+}
+
+.video .video-slider {
+    margin-top: 40px;
+}
+
+.video-settings .play {
+    background: url("../assets/icons/play.svg");
+    width: 23px;
+    height: 31px;
+    border: none;
+}
+
+.video-settings .pause {
+    background: url("../assets/icons/pause.svg") no-repeat;
+    width: 23px;
+    height: 31px;
+    border: none;
+}
+
+.video-settings .volume {
+    background: url("../assets/icons/volume.svg") no-repeat;
+    width: 38px;
+    height: 31px;
+    border: none;
+}
+
+.video-settings .mute {
+    background: url("../assets/icons/mute.svg") no-repeat;
+    width: 38px;
+    height: 31px;
+    border: none;
+}
+
+.video-settings .fullscreen {
+    background: url("../assets/icons/fullscreen.svg") no-repeat;
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+
+.video-settings .fullscreen-exit {
+    background: url("../assets/icons/fullscreen-exit.svg") no-repeat;
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+
+input[type=range] {
+    height: 8px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.video-settings #progress {
+    background: linear-gradient(to right, #710707 0%, #710707 53%, #C4C4C4 53%, #C4C4C4 100%);
+    width: 929px;
+}
+
+.video-settings #sound {
+    background: linear-gradient(to right, #710707 0%, #710707 43%, #C4C4C4 43%, #C4C4C4 100%);
+    width: 155px;
+}
+
+.video-settings #sound::-webkit-slider-thumb,
+.video-settings #progress::-webkit-slider-thumb {
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width:15px;
+    height: 15px;
+    -webkit-appearance: none;
+}
+
+.video-settings #sound::-moz-range-thumb,
+.video-settings #progress::-moz-range-thumb {
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width:15px;
+    height: 15px;
+    -webkit-appearance: none;
+}
+
+.video-settings #sound::-ms-fill-upper,
+.video-settings #progress::-ms-fill-upper {
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width:15px;
+    height: 15px;
+    -webkit-appearance: none;
+}
