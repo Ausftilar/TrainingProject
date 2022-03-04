@@ -114,4 +114,7 @@ $(document).ready(function() {
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top + "px"});
     });
+
+    //Animate fadeInUp
+    new WOW().init();
 });
